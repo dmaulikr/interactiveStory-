@@ -18,6 +18,7 @@
 		36604A721EBBEF4200582AA1 /* Icons in Resources */ = {isa = PBXBuildFile; fileRef = 36604A711EBBEF4200582AA1 /* Icons */; };
 		36604A741EBC040D00582AA1 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36604A731EBC040D00582AA1 /* Story.swift */; };
 		36604A761EBC0DFC00582AA1 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36604A751EBC0DFC00582AA1 /* Page.swift */; };
+		36604A781EBC407900582AA1 /* PageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36604A771EBC407900582AA1 /* PageController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		36604A711EBBEF4200582AA1 /* Icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Icons; sourceTree = "<group>"; };
 		36604A731EBC040D00582AA1 /* Story.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
 		36604A751EBC0DFC00582AA1 /* Page.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		36604A771EBC407900582AA1 /* PageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				36604A421EBBE0A700582AA1 /* ViewController.swift */,
 				36604A731EBC040D00582AA1 /* Story.swift */,
 				36604A751EBC0DFC00582AA1 /* Page.swift */,
+				36604A771EBC407900582AA1 /* PageController.swift */,
 				36604A441EBBE0A700582AA1 /* Main.storyboard */,
 				36604A4A1EBBE0A700582AA1 /* Assets.xcassets */,
 				36604A711EBBEF4200582AA1 /* Icons */,
@@ -277,6 +280,7 @@
 			files = (
 				36604A491EBBE0A700582AA1 /* interactiveStory.xcdatamodeld in Sources */,
 				36604A431EBBE0A700582AA1 /* ViewController.swift in Sources */,
+				36604A781EBC407900582AA1 /* PageController.swift in Sources */,
 				36604A411EBBE0A700582AA1 /* AppDelegate.swift in Sources */,
 				36604A741EBC040D00582AA1 /* Story.swift in Sources */,
 				36604A761EBC0DFC00582AA1 /* Page.swift in Sources */,
