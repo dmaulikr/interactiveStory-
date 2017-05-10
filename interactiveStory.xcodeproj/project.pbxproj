@@ -19,6 +19,10 @@
 		36604A741EBC040D00582AA1 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36604A731EBC040D00582AA1 /* Story.swift */; };
 		36604A761EBC0DFC00582AA1 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36604A751EBC0DFC00582AA1 /* Page.swift */; };
 		36604A781EBC407900582AA1 /* PageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36604A771EBC407900582AA1 /* PageController.swift */; };
+		36604A7D1EC2547400582AA1 /* HappyEnding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 36604A7A1EC2547400582AA1 /* HappyEnding.wav */; };
+		36604A7E1EC2547400582AA1 /* Ominous.wav in Resources */ = {isa = PBXBuildFile; fileRef = 36604A7B1EC2547400582AA1 /* Ominous.wav */; };
+		36604A7F1EC2547400582AA1 /* PageTurn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 36604A7C1EC2547400582AA1 /* PageTurn.wav */; };
+		36604A811EC26C0900582AA1 /* Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36604A801EC26C0900582AA1 /* Audio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +61,10 @@
 		36604A731EBC040D00582AA1 /* Story.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
 		36604A751EBC0DFC00582AA1 /* Page.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 		36604A771EBC407900582AA1 /* PageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageController.swift; sourceTree = "<group>"; };
+		36604A7A1EC2547400582AA1 /* HappyEnding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = HappyEnding.wav; sourceTree = "<group>"; };
+		36604A7B1EC2547400582AA1 /* Ominous.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Ominous.wav; sourceTree = "<group>"; };
+		36604A7C1EC2547400582AA1 /* PageTurn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = PageTurn.wav; sourceTree = "<group>"; };
+		36604A801EC26C0900582AA1 /* Audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Audio.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +121,8 @@
 				36604A751EBC0DFC00582AA1 /* Page.swift */,
 				36604A771EBC407900582AA1 /* PageController.swift */,
 				36604A441EBBE0A700582AA1 /* Main.storyboard */,
+				36604A801EC26C0900582AA1 /* Audio.swift */,
+				36604A791EC2542500582AA1 /* Resources */,
 				36604A4A1EBBE0A700582AA1 /* Assets.xcassets */,
 				36604A711EBBEF4200582AA1 /* Icons */,
 				36604A4C1EBBE0A700582AA1 /* LaunchScreen.storyboard */,
@@ -138,6 +148,16 @@
 				36604A651EBBE0A700582AA1 /* Info.plist */,
 			);
 			path = interactiveStoryUITests;
+			sourceTree = "<group>";
+		};
+		36604A791EC2542500582AA1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				36604A7A1EC2547400582AA1 /* HappyEnding.wav */,
+				36604A7B1EC2547400582AA1 /* Ominous.wav */,
+				36604A7C1EC2547400582AA1 /* PageTurn.wav */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,9 +271,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				36604A4E1EBBE0A700582AA1 /* LaunchScreen.storyboard in Resources */,
+				36604A7F1EC2547400582AA1 /* PageTurn.wav in Resources */,
 				36604A721EBBEF4200582AA1 /* Icons in Resources */,
+				36604A7D1EC2547400582AA1 /* HappyEnding.wav in Resources */,
 				36604A4B1EBBE0A700582AA1 /* Assets.xcassets in Resources */,
 				36604A461EBBE0A700582AA1 /* Main.storyboard in Resources */,
+				36604A7E1EC2547400582AA1 /* Ominous.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +307,7 @@
 				36604A411EBBE0A700582AA1 /* AppDelegate.swift in Sources */,
 				36604A741EBC040D00582AA1 /* Story.swift in Sources */,
 				36604A761EBC0DFC00582AA1 /* Page.swift in Sources */,
+				36604A811EC26C0900582AA1 /* Audio.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
